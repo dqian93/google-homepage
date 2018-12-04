@@ -1,0 +1,111 @@
+body {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+    position: absolute;
+    left: 37%;
+    top: 34%;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.top, li.bottom {
+    float: left;
+    padding: 5px 10px 0 10px;
+    font-size: 9pt;
+}
+
+.righticons {
+    float: right;
+}
+
+#login {
+    border: 1px solid rgb(58, 123, 221);
+    border-radius: 2px;
+    padding: 6px 10px;
+    font-weight: bold;
+    color: rgb(243, 242, 242);
+    background-color: rgb(58, 123, 221);
+}
+
+.bottom {
+    font-size: 20pt;
+}
+
+ul.upper {
+    padding-top: 8px;
+}
+
+ul.lower {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    border-top: 1px solid rgb(211, 211, 211);
+    background-color: rgb(235, 235, 235);
+}
+
+.lowerlinks {
+    color: rgb(77, 77, 77);
+}
+
+input[type="submit"] {
+    background-color: rgb(240, 239, 239);
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+    height: 36px;
+    width: 135px;
+    border-radius: 3px;
+    position: absolute;
+    left: 48%;
+    top: 68%;
+}
+
+input[type="submit"].search {
+    width: 115px;
+    position: absolute;
+    left: 37%;
+    top: 68%;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 450px;
+    font-size: 12pt;
+    text-indent: 10px;
+    border-radius: 3px;
+    padding-right: 45px;
+    border: 1px solid rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(218, 218, 218);
+    background-image: url(http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: 457px 8px;
+    position: absolute;
+    left: 27%;
+    top: 55%;
+}
+
+input[type="text"]:hover {
+   box-shadow: 1px 1px rgb(226, 226, 226);
+}
+
+input[type="text"],input[type="submit"]:focus {
+    outline: none;
+}

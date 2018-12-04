@@ -1,0 +1,1 @@
+This project will allow me to demonstrate my grasp of HTML in constructing a replica of the Google search page, as well as my ability to style using CSS
